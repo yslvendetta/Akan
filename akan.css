@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+p{
+    color: floralwhite;
+}
+
+
+
+/* CSS for navbar section */
+.navbar{
+     padding-top: 0%;
+     position: relative;
+     text-align: center;
+     color: white; 
+}
+.bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 78px;
+    font-weight: 400;
+    font-size: 32px;
+  }
+.text-section{
+    padding: 5px 15px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 600px){
+    .bottom-left {font-size: 20px; bottom:40px ; left: 40px;}
+    .p{font-size: 15px;}
+    img{height: 300;}
+}
+
