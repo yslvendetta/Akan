@@ -64,4 +64,24 @@ h2{
         margin-top: 100px;
         margin-left: 40px;
     }
+    .name{
+        margin-left:  30px; 
+    }
+    h2{
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .lblname{
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    .lblgender{
+        color: whitesmoke;
+        font-size: 20px;
+        margin-left: 24px;
+    }
+    #bdate{
+    margin-left: 20px;
+    }
 }
